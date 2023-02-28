@@ -3,6 +3,7 @@ import React from "react";
 import IdCard from "./components/IdCard/IdCard.js"
 import Greeting from "./components/Greeting/Greeting.js"
 import Random from "./components/Random/Random.js"
+import BoxColor from "./components/BoxColor/BoxColor.js"
 
 
 
@@ -33,6 +34,10 @@ function App() {
 
       <Random min={1} max={6} />
       <Random min={1} max={100} />
+      <h2>Backgrounds colors</h2>
+
+      <BoxColor r={255} g={0} b={0} bg />
+      <BoxColor r={128} g={255} b={0} bg />
     </>
   );
 }
