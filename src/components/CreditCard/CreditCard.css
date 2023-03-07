@@ -1,0 +1,37 @@
+.credit-cards{
+display: flex;
+justify-content: space-around;
+}
+
+.credit-card{
+    display: flex;
+    flex-direction: column;
+    width: 30vmax;
+    border-radius: 15px;
+    padding: 0.5rem;
+    justify-content: space-around;
+}
+
+.credit-card .logo {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
+.credit-card .logo img{
+    width: 25%;
+}
+
+.credit-card .number{
+    display: flex;
+    justify-content: center;
+}
+
+.expire-bank {
+    display: flex;
+    gap: 1rem;
+}
+
+.credit-card h4{
+    margin: 0.2rem;
+}

@@ -16,3 +16,4 @@ const BoxColor = ({ r, g, b, bg }) => {
     )
 }
 export default BoxColor;
+
